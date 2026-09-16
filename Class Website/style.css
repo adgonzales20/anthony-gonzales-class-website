@@ -1,7 +1,9 @@
 body{
     background-color:rgb(168, 133, 108);
     h1 {color:white;
-        font-family: Arial, Helvetica, sans-serif;font-style: italic;}
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:40px;
+    }
     h2 {color:white;}
     u {color:white;}
     li {color:rgb(64, 15, 87); font-size:40px;}
@@ -9,7 +11,7 @@ body{
     
     a {color:rgb(213, 199, 106)}
     p {color:rgb(33, 41, 99)}
-    #fish {
+    #list {
         background-color:rgb(160, 118, 176);
         border: 2px solid rgb(57, 15, 87);
     }
