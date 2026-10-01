@@ -14,4 +14,15 @@ body{
         font-family: 'Times New Roman', Times, serif;
         font-style: bold;
 }
+.Escape {
+text-align:center;
+margin-top: 15%;
+a {color:crimson};
+
+
+    
+}
+.Escape:hover {
+ a {color:rgb(109, 6, 26)}
+}
 }
