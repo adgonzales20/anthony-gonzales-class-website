@@ -1,0 +1,22 @@
+body
+    {
+       
+        background-image: url(skeleton3.jpeg); background-position: center;  
+        
+    .Area {
+       align: center;
+        margin-top: 30%;
+        margin-left: 30%;
+  
+    }
+    .link {
+        background-color: black; 
+        font-size: 40px;
+        padding: 20px;
+        color:white;
+        text-decoration: none;
+    }
+.link:hover {
+  background-color: #1b0b0b;
+}
+    }

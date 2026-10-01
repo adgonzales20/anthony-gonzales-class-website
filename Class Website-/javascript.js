@@ -1,10 +1,20 @@
- const button = document.querySelector("#button");
+const button = document.querySelector(".evilbutton");
 
-    const message = document.querySelector("#message");
-    function changeMessage() {message.textContent = 
-        "Im feeling really good right now thank you";
-        }
-    button.addEventListener("click",changeMessage); 
+const pages = [
+    "evil1.html",
+    "evil2.html",
+    "evil3.html",
+    "evil4.html",
+    "evil5.html",
+    "evil6.html",
+
+];
+
+button.addEventListener("click", function() {
+    const randomIndex = Math.floor(Math.random() * pages.length);
+
+    window.location.href = pages[randomIndex];
+});
 
 
 
